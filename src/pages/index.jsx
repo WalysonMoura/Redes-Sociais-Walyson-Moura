@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import * as Style from "../styles/style";
+// Images
+import WizenShop from "/Images/WizenShop";
 import { Colors } from "../styles/colors";
 
+// React Icons
 import Tilt from "react-parallax-tilt";
 import Fade from "react-awesome-reveal";
 import { MdEmail } from "react-icons/md";
@@ -16,8 +20,7 @@ import {
 import { FaTiktok, FaPinterestP, FaWhatsapp } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 
-import * as Style from "../styles/style";
-
+// Components
 import Particulas from "../components/Particulas";
 import Button from "../components/Button";
 import Link from "next/link";
@@ -135,6 +138,9 @@ export default function Home() {
         </Style.wg>
         <Style.ecommerce>
           <h2>Conheça o meu E-commerce!</h2>
+          <Style.Socios></Style.Socios>
+
+          <Image src={WizenShop} alt="logo WizenShop" />
         </Style.ecommerce>
       </Style.Container>
     </>
