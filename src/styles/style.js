@@ -59,4 +59,6 @@ export const Links = styled.section`
 `;
 
 export const wg = styled.section``;
-export const ecommerce = styled.section``;
+export const ecommerce = styled.section`
+
+`;
