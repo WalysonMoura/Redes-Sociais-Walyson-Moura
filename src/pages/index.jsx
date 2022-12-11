@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import * as Style from "../styles/style";
-// Images
-import WizenShop from "/Images/WizenShop";
 import { Colors } from "../styles/colors";
 
 // React Icons
@@ -23,7 +22,6 @@ import { BiCodeAlt } from "react-icons/bi";
 // Components
 import Particulas from "../components/Particulas";
 import Button from "../components/Button";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -41,9 +39,7 @@ export default function Home() {
             target="_blank"
             href="mailto:walysonmoura222@gmail.com?subject=Walyson%20Moura&body=Olá%20quero%20saber%20mais%20sobre%20seu%20trabalho"
           >
-            <a>
-              <MdEmail size={40} color={Colors.azul1} />
-            </a>
+            <MdEmail size={40} color={Colors.azul1} />
           </Link>
         </button>
         <div className="cicle1"></div>
@@ -55,9 +51,7 @@ export default function Home() {
             target="_blank"
             href="https://api.whatsapp.com/send?phone=+5585987520858&text=Olá%20quero%20saber%20mais%20sobre%20seu%20trabalho"
           >
-            <a>
-              <FaWhatsapp size={40} color={Colors.azul1} />
-            </a>
+            <FaWhatsapp size={40} color={Colors.azul1} />
           </Link>
         </button>
       </div>
@@ -77,7 +71,7 @@ export default function Home() {
             >
               <Image
                 className="img"
-                src="/walyson.png"
+                src="/Images/walyson1.png"
                 width={300}
                 height={300}
                 alt="img"
@@ -92,7 +86,7 @@ export default function Home() {
             <Button
               icon={<BiCodeAlt size={25} />}
               nome="Portifólio"
-              link="http://portifolio-nine-fawn.vercel.app/"
+              link="http://portifolio-walyson-moura.vercel.app/"
             />
           </Style.Principal>
           <Style.Links>
@@ -138,9 +132,17 @@ export default function Home() {
         </Style.wg>
         <Style.ecommerce>
           <h2>Conheça o meu E-commerce!</h2>
-          <Style.Socios></Style.Socios>
 
-          <Image src={WizenShop} alt="logo WizenShop" />
+          <Image
+            src="/Images/notbook.png"
+            alt="logo WizenShop"
+            width={700}
+            height={475}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}
+          />
         </Style.ecommerce>
       </Style.Container>
     </>

@@ -4,12 +4,10 @@ import * as Style from "./style";
 export default function Button({ icon, nome, link }) {
   return (
     <Link href={link}>
-      <a>
-        <Style.Botao>
-          {icon}
-          <span>{nome}</span>
-        </Style.Botao>
-      </a>
+      <Style.Botao>
+        {icon}
+        <span>{nome}</span>
+      </Style.Botao>
     </Link>
   );
 }
