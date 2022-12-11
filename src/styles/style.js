@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Colors } from "../styles/colors";
 
-
 export const Container = styled.main`
   max-width: 1024px;
   margin: 0 auto;
@@ -59,6 +58,51 @@ export const Links = styled.section`
 `;
 
 export const wg = styled.section``;
-export const ecommerce = styled.section`
+export const Ecommerce = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
 
+  h2 {
+    font-size: 1.4rem;
+    font-family: Kusanagi;
+    color: ${Colors.azul1};
+    text-align: center;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+
+  }
+  section,
+  section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    div {
+      margin-bottom: 1rem;
+      h3 {
+        font-size: 1.5rem;
+        strong{
+          color: ${Colors.azul1};
+        }
+      }
+      h4 {
+        font-size: 1rem;
+      }
+      gap: 1rem;
+    }
+  }
+ 
 `;

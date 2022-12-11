@@ -18,10 +18,12 @@ import {
 } from "react-icons/fi";
 import { FaTiktok, FaPinterestP, FaWhatsapp } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 // Components
 import Particulas from "../components/Particulas";
 import Button from "../components/Button";
+import Partners from "../components/Partners";
 
 export default function Home() {
   return (
@@ -71,7 +73,7 @@ export default function Home() {
             >
               <Image
                 className="img"
-                src="/Images/walyson1.png"
+                src="/Images/walyson2.png"
                 width={300}
                 height={300}
                 alt="img"
@@ -130,21 +132,40 @@ export default function Home() {
         <Style.wg>
           <h2>Conheça a minha empresa!</h2>
         </Style.wg>
-        <Style.ecommerce>
-          <h2>Conheça o meu E-commerce!</h2>
-
-          <Image
-            src="/Images/notbook.png"
-            alt="logo WizenShop"
-            width={700}
-            height={475}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-              zIndex:2
-            }}
-          />
-        </Style.ecommerce>
+        <Style.Ecommerce>
+          <h2>
+            Conheça o nosso <br /> E-commerce!
+          </h2>
+          <div>
+            <Partners />
+            <section>
+              <Image
+                src="/Images/notbook.png"
+                alt="logo WizenShop"
+                width={700}
+                height={475}
+                style={{
+                  maxWidth: "30rem",
+                  height: "auto",
+                }}
+              />
+              <div>
+                <h3>
+                  🛒 Quer <strong>comprar</strong>?! tá na{" "}
+                  <strong>Wizen</strong>!
+                </h3>
+                <h4>Uma das maiores lojas online do país!</h4>
+              </div>
+              <Style.Links>
+                <Button
+                  icon={<AiOutlineShoppingCart size={35} />}
+                  nome="Conhecer Loja"
+                  link="https://wizenshop.com.br"
+                />
+              </Style.Links>
+            </section>
+          </div>
+        </Style.Ecommerce>
       </Style.Container>
     </>
   );

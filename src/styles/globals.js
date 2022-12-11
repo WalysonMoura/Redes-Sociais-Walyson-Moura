@@ -78,6 +78,10 @@ body {
 	background-color: ${Colors.bodyColor};
 
 	position: relative;
+	@font-face {
+    font-family: Kusanagi;
+    src: url(/Fonts/Kusanagi.otf);
+  }
 	
 }
 .btnFloat{

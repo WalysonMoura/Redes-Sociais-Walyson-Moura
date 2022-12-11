@@ -6,7 +6,7 @@ export default function Particulas() {
       id="simple"
       width="100%"
       height="100%"
-      style={{ position: "fixed" }}
+      style={{ position: "fixed",zIndex: 0 }}
       className="NASA"
       params={{
         particles: {
