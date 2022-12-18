@@ -99,7 +99,7 @@ export default function Home() {
             <Button
               icon={<FiInstagram size={20} />}
               nome="Instagram"
-              link="https://www.instagram.com/walysonmoura222/"
+              link="https://www.instagram.com/walyson_moura222/"
             />
             <Button
               icon={<FiYoutube size={20} />}
