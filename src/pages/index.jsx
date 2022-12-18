@@ -7,7 +7,7 @@ import { Colors } from "../styles/colors";
 
 // React Icons
 import Tilt from "react-parallax-tilt";
-import Fade from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { MdEmail } from "react-icons/md";
 import {
   FiFacebook,
@@ -59,7 +59,7 @@ export default function Home() {
       </div>
 
       <Style.Container>
-        <Fade direction="right" cascade>
+        <Fade direction="down">
           <Style.Imagem>
             <Tilt
               className="tilt-img"
@@ -73,11 +73,10 @@ export default function Home() {
             >
               <Image
                 className="img"
-                src="/Images/walyson2.png"
+                src="/Images/walyson3.png"
                 width={300}
                 height={300}
                 alt="img"
-                style={{ position: "absolute" }}
               />
             </Tilt>
           </Style.Imagem>
@@ -129,9 +128,11 @@ export default function Home() {
             />
           </Style.Links>
         </Fade>
+
         <Style.wg>
           <h2>Conheça a minha empresa!</h2>
         </Style.wg>
+
         <Style.Ecommerce>
           <h2>
             Conheça o nosso <br /> E-commerce!
@@ -147,6 +148,7 @@ export default function Home() {
                 style={{
                   maxWidth: "30rem",
                   height: "auto",
+                  position: "relative",
                 }}
               />
               <div>
@@ -154,7 +156,7 @@ export default function Home() {
                   🛒 Quer <strong>comprar</strong>?! tá na{" "}
                   <strong>Wizen</strong>!
                 </h3>
-                <h4>Uma das maiores lojas online do país!</h4>
+                <h4>Uma das maiores lojas online do país! </h4>
               </div>
               <Style.Links>
                 <Button

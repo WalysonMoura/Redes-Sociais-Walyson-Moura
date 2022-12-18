@@ -93,15 +93,15 @@ export const Ecommerce = styled.section`
     div {
       margin-bottom: 1rem;
       h3 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         strong{
           color: ${Colors.azul1};
         }
       }
       h4 {
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
-      gap: 1rem;
+      gap: 1.5rem;
     }
   }
  

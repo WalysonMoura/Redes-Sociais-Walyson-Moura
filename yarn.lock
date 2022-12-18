@@ -1960,10 +1960,10 @@ react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-parallax-tilt@^1.7.67:
-  version "1.7.72"
-  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.72.tgz#9aaad589c0c45eb044a22d2cc456e7c38cde0fbc"
-  integrity sha512-g5pUWIXGaC4YX4b6funNdZmhnrXjCGV08+++B83CN0kFta0OXiBC6mwDfaO8aLnfY265LWPzOaXo6iGFG7tW2g==
+react-parallax-tilt@^1.7.76:
+  version "1.7.76"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.76.tgz#c5699dc1c97471f1eb4b0542b9a028cd0b477d79"
+  integrity sha512-aLFknLmDb67ALQyWFPZNYYNwLYO3JM+e5Vqx51jmkiMGMOmbjkzoghH2skqQuTq+l+BLxC5N0OyyTkiyfpFNww==
 
 react-tsparticles@^2.3.2:
   version "2.5.3"

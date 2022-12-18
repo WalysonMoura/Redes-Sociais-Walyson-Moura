@@ -6,7 +6,7 @@ export default function Partners() {
     <Style.Conteiner>
       <Style.Imagem style={{left:"10%"}}>
         <Image
-          src="/Images/walyson2.png"
+          src="/Images/walyson3.png"
           alt="Ricardo"
           width={150}
           height={150}
@@ -19,7 +19,7 @@ export default function Partners() {
       </Style.Imagem>
       <Style.Imagem>
         <Image
-          src="/Images/walyson2.png"
+          src="/Images/walyson3.png"
           alt="Walyson"
           width={150}
           height={150}
@@ -32,7 +32,7 @@ export default function Partners() {
       </Style.Imagem>
       <Style.Imagem style={{right:"10%"}}>
         <Image
-          src="/Images/walyson2.png"
+          src="/Images/walyson3.png"
           alt="Cayo"
           width={150}
           height={150}
